@@ -138,7 +138,7 @@ PROMPT_COMMAND='case $PWD in
         *) HPWD="$PWD";;
       esac'
       
-PS1='[$HPWD]\$ '
+PS1='[\w]\$ '
 
 # ... provides current + parent w/o tilde substitution ...
 
