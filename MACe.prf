@@ -1,0 +1,20 @@
+# Unison preferences
+label = Sync jminer home to kingston usb MACe dir
+
+# Roots of the synchronization ...
+root = /home/jminer
+root = /media/jminer/kingston/MACe
+
+# Removable media preferences ...
+mountpoint = ./tmp
+
+# Paths to synchronize
+path = tmp
+
+path = Desktop
+path = Documents
+path = Downloads
+path = bin
+path = texmf
+path = python
+
