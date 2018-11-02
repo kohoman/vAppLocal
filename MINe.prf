@@ -1,9 +1,9 @@
 # Unison preferences
-label = Sync jminer home to kingston usb MGLe dir
+label = Sync jminer home to kingston usb MINe dir
 
 # Roots of the synchronization ...
 root = /home/jminer
-root = /media/jminer/kingston/MGLe
+root = /media/jminer/kingston/MINe
 
 # Removable media preferences ...
 mountpoint = ./vAppLocal
@@ -15,5 +15,4 @@ path = Desktop
 path = Documents
 path = Downloads
 path = bin
-path = texmf
 

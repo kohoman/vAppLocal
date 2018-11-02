@@ -6,10 +6,10 @@ root = /home/jminer
 root = /media/jminer/kingston/MACe
 
 # Removable media preferences ...
-mountpoint = ./tmp
+mountpoint = ./vAppLocal
 
 # Paths to synchronize
-path = tmp
+path = vAppLocal
 
 path = Desktop
 path = Documents
