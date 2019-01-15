@@ -2,9 +2,9 @@
 
 # ... add symbolic links to dot files ...
 
-ln -s dots/dot.bashrc ~/.bashrc
-ln -s dots/dot.bash_profile ~/.bash_profile
-ln -s dots/dot.emacs ~/.emacs
+ln -s ~/vAppLocal/dots/dot.bashrc ~/.bashrc
+ln -s ~/vAppLocal/dots/dots/dot.bash_profile ~/.bash_profile
+ln -s ~/vAppLocal/dots/dots/dot.emacs ~/.emacs
 
 # ... set up Desktop/References folder ...
 
@@ -19,7 +19,7 @@ cp -R references/Xfig      ~/Desktop/References/
 # ... set up unison sync profile ...
 
 mkdir ~/.unison
-ln -s unison/MGLe.prf ~/.unison/
+ln -s ~/vAppLocal/unison/MGLe.prf ~/.unison/
 
 # ... set up Documents ...
 
