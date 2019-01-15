@@ -23,11 +23,8 @@ ln -s unison/MGLe.prf ~/.unison/
 
 # ... set up Documents ...
 
-mkdir ~/Documents/minwes
-cd ~/Documents/minwes/
+cd ~/Documents/
 git clone https://github.com/kohoman/minwes.git
-cd 
-mkdir ~/Documents/mst_ths
 git clone https://github.com/kohoman/mst_ths.git
 
 # ... set up user texmf ...
@@ -38,8 +35,8 @@ mkdir ~/texmf/bibtex
 mkdir ~/texmf/bibtex/bst
 mkdir ~/texmf/tex
 mkdir ~/texmf/tex/latex
-ln -s ~/Documents/mst_ths.github/source_bst/mstogs.bst ~/texmf/bibtex/bst/
-ln -s ~/Documents/mst_ths.github/source_class/mstogs.cls ~/texmf/tex/latex/
+ln -s ~/Documents/mst_ths/source_bst/mstogs.bst ~/texmf/bibtex/bst/
+ln -s ~/Documents/mst_ths/source_class/mstogs.cls ~/texmf/tex/latex/
 
 # ... set up user bin directory ...
 
