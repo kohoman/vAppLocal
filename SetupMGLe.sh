@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# ... add symbolic links to dot files ...
+
+ln -s dots/dot.bashrc ~/.bashrc
+ln -s dots/dot.bash_profile ~/.bash_profile
+ln -s dots/dot.emacs ~/.emacs
+
 # ... set up Desktop/References folder ...
 
 mkdir ~/Desktop/References
@@ -20,11 +26,13 @@ ln -s unison/MGLe.prf ~/.unison/
 mkdir ~/Documents/minwes
 cd ~/Documents/minwes/
 git clone https://github.com/kohoman/minwes.git
+cd 
 mkdir ~/Documents/mst_ths
 git clone https://github.com/kohoman/mst_ths.git
 
 # ... set up user texmf ...
 
+cd
 mkdir ~/texmf
 mkdir ~/texmf/bibtex
 mkdir ~/texmf/bibtex/bst
