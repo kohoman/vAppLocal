@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# --- Setup script for the MGLe vApp ---
+
 # ... add symbolic links to dot files ...
 
 ln -s ~/vAppLocal/dots/dot.bashrc ~/.bashrc
