@@ -27,8 +27,8 @@ ln -s ~/vAppLocal/unison/MPCe.prf ~/.unison/
 # ... set up Documents ...
 
 cd ~/Documents/
-git clone https://github.com/kohoman/minwes.git
-git clone https://github.com/kohoman/mst_ths.git
+git clone https://github.com/kohoman/mweLaTeX.git
+git clone https://github.com/kohoman/mstTheses.git
 #git clone https://github.com/kohoman/mwePython.git
 
 # ... set up user texmf ...
@@ -39,8 +39,8 @@ mkdir ~/texmf/bibtex
 mkdir ~/texmf/bibtex/bst
 mkdir ~/texmf/tex
 mkdir ~/texmf/tex/latex
-ln -s ~/Documents/mst_ths/source_bst/mstogs.bst ~/texmf/bibtex/bst/
-ln -s ~/Documents/mst_ths/source_class/mstogs.cls ~/texmf/tex/latex/
+ln -s ~/Documents/mstTheses/source_bst/mstogs.bst   ~/texmf/bibtex/bst/
+ln -s ~/Documents/mstTheses/source_class/mstogs.cls ~/texmf/tex/latex/
 
 # ... set up user bin directory ...
 
