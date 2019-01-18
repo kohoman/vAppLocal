@@ -1,6 +1,6 @@
 #!/bin/bash
 
---- Script to reset setup steps for MGLe ---
+# --- Script to reset setup steps for MGLe ---
 
 # ... symbolic links ...
 
