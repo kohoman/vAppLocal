@@ -16,5 +16,5 @@ rm -rf texmf
 rm -rf python
 rm -rf Desktop/References
 rm -rf Documents/mweLaTeX
-rm -rf Documents/mstTheses
+rm -rf Documents/mwePython
 rm -rf .unison

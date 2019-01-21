@@ -28,8 +28,8 @@ ln -s ~/vAppLocal/unison/MPCe.prf ~/.unison/
 
 cd ~/Documents/
 git clone https://github.com/kohoman/mweLaTeX.git
+git clone https://github.com/kohoman/mwePython.git
 git clone https://github.com/kohoman/mstTheses.git
-#git clone https://github.com/kohoman/mwePython.git
 
 # ... set up user texmf ...
 
