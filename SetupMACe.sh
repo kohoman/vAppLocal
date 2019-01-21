@@ -4,9 +4,9 @@
 
 # ... add symbolic links to dot files ...
 
-ln -s ~/vAppLocal/dots/dot.bashrc ~/.bashrc
+ln -s ~/vAppLocal/dots/MACe.bashrc      ~/.bashrc
 ln -s ~/vAppLocal/dots/dot.bash_profile ~/.bash_profile
-ln -s ~/vAppLocal/dots/dot.emacs ~/.emacs
+ln -s ~/vAppLocal/dots/dot.emacs        ~/.emacs
 
 # ... set up Desktop/References folder ...
 
