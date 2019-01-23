@@ -14,4 +14,5 @@ rm -f .emacs
 rm -rf bin
 rm -rf texmf
 rm -rf Desktop/References
+rm -rf Documents/mweLaTeX
 rm -rf .unison

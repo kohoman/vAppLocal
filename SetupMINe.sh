@@ -11,7 +11,6 @@ ln -s ~/vAppLocal/dots/dot.emacs        ~/.emacs
 # ... set up Desktop/References folder ...
 
 mkdir ~/Desktop/References
-cp -R references/AMS-LaTeX ~/Desktop/References/
 cp -R references/bash      ~/Desktop/References/
 cp -R references/Emacs     ~/Desktop/References/
 cp -R references/git       ~/Desktop/References/
@@ -32,6 +31,7 @@ cd
 mkdir ~/texmf
 mkdir ~/texmf/bibtex
 mkdir ~/texmf/bibtex/bst
+mkdir ~/texmf/bibtex/bib
 mkdir ~/texmf/tex
 mkdir ~/texmf/tex/latex
 

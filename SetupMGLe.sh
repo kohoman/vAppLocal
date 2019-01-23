@@ -11,11 +11,11 @@ ln -s ~/vAppLocal/dots/dot.emacs        ~/.emacs
 # ... set up Desktop/References folder ...
 
 mkdir ~/Desktop/References
-cp -R references/AMS-LaTeX ~/Desktop/References/
 cp -R references/bash      ~/Desktop/References/
 cp -R references/Emacs     ~/Desktop/References/
 cp -R references/git       ~/Desktop/References/
 cp -R references/LaTeX     ~/Desktop/References/
+cp -R references/AMS-LaTeX ~/Desktop/References/
 cp -R references/Xfig      ~/Desktop/References/
 
 # ... set up unison sync profile ...

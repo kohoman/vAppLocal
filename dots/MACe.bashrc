@@ -167,10 +167,6 @@ alias ofv4x='export PS1="[(v4x) \w]\\$ "; source /opt/openfoam4/etc/bashrc'
 alias ofv5x='export PS1="[(v5x) \w]\\$ "; source /opt/openfoam5/etc/bashrc'
 alias ofv6x='export PS1="[(v6x) \w]\\$ "; source /opt/openfoam6/etc/bashrc'
 
-# ... openfoam.com (ESI-OpenCFD, OpenFOAM plus) ...
-
-#alias ofv1606='export PS1="[v1606+ \W]\\$ "; source /opt/OpenFOAM/OpenFOAM-v1606+/etc/bashrc'
-
 # ****** ****** ****** ****** ****** ****** ****** ****** ******
 
 
